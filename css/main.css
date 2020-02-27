@@ -1,0 +1,139 @@
+/***** BASE STYLES *****/
+body{
+font-family: 'Roboto Slab', serif;
+}
+
+.projects{
+  height: 1450px;
+}
+
+.about{
+  height: 650px;
+}
+
+.contact-info {
+  height: 450px;
+
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.third-width {
+  width: 400px;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header{
+  height: 800px;
+  background: url('../img/hero-image.png');
+  background-size: cover;
+}
+
+header h1{
+  color: #000000;
+  font-family: 'Roboto Slab', serif;
+  font-size: 55px;
+  padding-top: 200px;
+  padding-left: 50px;
+  margin: 0;
+}
+
+header h2{
+  color: #4d4d4d;
+  font-family: 'Roboto', sans-serif;
+  font-size: 38px;
+  padding-left: 80px;
+}
+
+.imgs{
+  padding: 0 50px 50px 50px;
+  float: left;
+}
+
+.projects h3{
+  color:  #4d4d4d;
+  text-align: center;
+  /*****padding-left:610px;*****/
+  font-size: 36px;
+}
+
+#project-one, #project-two, #project-three{
+  height: 360px;
+  padding:50px 0 100px 0;
+  color: #4d4d4d;
+  font-size: 24px;
+}
+
+
+.about, .contact-info, footer{
+  clear: both;
+}
+
+.about{
+  background-color: #606E47;
+  color: #ffffff;
+}
+
+.about h3{
+  padding-left: 500px;
+  font-size: 36px;
+  padding-top: 50px;
+}
+
+.about p{
+  font-size: 24px;
+  padding-left: 540px;
+}
+
+.contact-info {
+  background-color: #DF8480;
+}
+
+.contact-info {
+  color: #ffffff;
+}
+
+.contact-info h3{
+  font-size: 36px;
+  padding-left: 490px;
+  padding-top: 50px;
+  padding-bottom:  50px;
+  margin: 0;
+
+}
+
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+nav ul li a img {
+  padding: 0px 35px 35px 0;
+}
+
+.about, .contact-info, footer{
+  clear: both;
+}
+
+footer {
+  background-color: #606E47;
+  color: #ffffff;
+  padding-left: 545px;
+  padding-bottom: 25px;
+  margin: 0;
+}
+
+footer h6{
+  margin: 0;
+}
