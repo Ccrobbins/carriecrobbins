@@ -31,9 +31,13 @@ font-family: 'Roboto Slab', serif;
 }
 
 header{
-  height: 800px;
+  min-height: 800px;
   background: url('../img/hero-image.png');
   background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 header h1{
