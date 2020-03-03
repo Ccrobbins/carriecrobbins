@@ -7,6 +7,37 @@ body{
 font-family: 'Roboto Slab', serif;
 }
 
+header {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav {
+  width: 30%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+  margin: 0;
+}
+
+header nav ul li {
+  font-size: 1em;
+}
+
 /***** GRID *****/
 .full-width {
   width: 90%;
