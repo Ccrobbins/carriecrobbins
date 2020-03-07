@@ -1,4 +1,4 @@
-/***** BASE STYLES *****/
+/*****--------------- BASE STYLES ---------------*****/
 html {
   font-size: 16px;
 }
@@ -7,43 +7,52 @@ body{
 font-family: 'Roboto Slab', serif;
 }
 
-header {
-  margin: 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-flow: row wrap;
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+}
+
+/*****--------------- BASE HEADER - FOOTER STYLES ---------------*****/
+
+header,
+footer {
+  background-color: #DF8480;
+  padding: 15px 0;
 }
 
 header nav {
-  width: 30%;
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  flex-flow: row wrap;
 }
 
-header nav ul {
-  width: 100%;
+ul {
   display: flex;
-  justify-content: space-around;
-  padding-left: 0px;
+  justify-content: space-between;
+  width:20%;
+  padding-left: 75%;
   margin: 0;
 }
 
-header nav ul li {
-  font-size: 1em;
+footer {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+footer h6{
+  margin: 0;
 }
 
 /***** GRID *****/
-.full-width {
+/*.full-width {
   width: 90%;
   margin: 0 auto;
 }
-
 
 .third-width {
   width: 400px;
@@ -79,7 +88,7 @@ header nav ul li {
   font-family: 'Roboto', sans-serif;
   font-size: 2.375em;
   padding-left: 80px;
-}
+}*/
 
 .imgs{
   padding: 0 50px 50px 50px;
@@ -89,7 +98,6 @@ header nav ul li {
 .projects h3{
   color:  #4d4d4d;
   text-align: center;
-  /*****padding-left:610px;*****/
   font-size: 2.25em;
 }
 
@@ -138,7 +146,6 @@ header nav ul li {
 
 }
 
-
 nav ul li{
   display: inline-block;
 }
@@ -155,20 +162,10 @@ nav ul li a img {
   clear: both;
 }
 
-footer {
-  background-color: #606E47;
-  color: #ffffff;
-  padding-left: 545px;
-  padding-bottom: 25px;
-  margin: 0;
-}
-
-footer h6{
-  margin: 0;
-}
 
 
-/***** MOBILE STYLES - HOMEPAGE *****/
+/*****--------------- MOBILE STYLES - HOMEPAGE ---------------*****/
+
 /***** HERO AREA *****/
 
 .hero-area{
@@ -177,7 +174,6 @@ footer h6{
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: center;
   flex-flow: row wrap;
 }
 
@@ -185,8 +181,8 @@ footer h6{
   color: #000000;
   font-family: 'Roboto Slab', serif;
   font-size: 3.4375em;
-  padding-top: 200px;
-  padding-left: 50px;
+  padding-top: 30%;
+  padding-left: 20%;
   margin: 0;
 }
 
@@ -194,5 +190,5 @@ footer h6{
   color: #4d4d4d;
   font-family: 'Roboto', sans-serif;
   font-size: 2.375em;
-  padding-left: 80px;
+  padding-left: 20%;
 }
