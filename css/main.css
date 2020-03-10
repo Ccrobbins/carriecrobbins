@@ -130,7 +130,7 @@ textarea {
    header,
    footer {
      background-color: #DF8480;
-     padding: 15px 0;
+     padding: 0;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -150,7 +150,7 @@ textarea {
    ul {
      width: 100%;
      display: flex;
-     justify-content: space-around;
+     justify-content: space-between;
      padding-left: 0;
      margin: 0;
    }
@@ -164,6 +164,7 @@ textarea {
    footer h6{
      margin: 0;
    }
+
 
    /*****--------------- MOBILE STYLES - HOMEPAGE ---------------*****/
 
@@ -217,7 +218,6 @@ textarea {
    }
 
    .projects .project-items article {
-     width: 63%;
      margin: 30px 0;
    }
 
@@ -249,6 +249,7 @@ textarea {
 
    .about p{
      font-size: 1em;
+     padding: 5px 0;
    }
 
    /***** CONTACT SECTION *****/
@@ -268,17 +269,31 @@ textarea {
      margin: 0;
    }
 
-   nav ul li{
-     display: inline-block;
+   .contact-info h4 {
+     font-size: 1.75em;
+     margin: 10px;
    }
 
-   nav ul li a{
-     text-decoration: none;
+   .contact-info .social-icons{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 10px;
    }
 
-   nav ul li a img {
-     padding: 0px 35px 35px 0;
+   .contact-info .social-icons p {
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
    }
+
+   .contact-info .social-icons p i {
+     font-size: 2.5em;
+   }
+
 
 /* ==========================================================================
    Helper classes

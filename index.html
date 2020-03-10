@@ -14,6 +14,9 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
 
+  <!-- FontAwesome CDN -->
+  <script src="https://kit.fontawesome.com/4d37fcbf1a.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -34,7 +37,7 @@
     <div class="content-wrapper">
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="#portfolio">Projects</a></li>
           <li><a href="#info">About</a></li>
           <li><a href="#socials">Contact</a></li>
@@ -95,7 +98,7 @@
 
   <!-- ABOUT -->
 
-    <section class="about">
+    <section class="about" id="info">
       <div class="content-wrapper">
           <h3>About Me</h3>
           <article>
@@ -103,7 +106,7 @@
               <img src="img/profile-pic.png" alt="profile pic" class="imgs"/>
             </figure>
             <div>
-              <h4>I am passionate about the web</h4>
+              <h4>I am passionate about the web.</h4>
               <p> I started taking Skillcrush classes after a thorough and thoughtful search for a quality program for learning tech skills. With
                 the knowledge I've gained thus far and my never-ending curiosity for continued learning, I am committed to creating solid work.
                 I am passionate about writing clean code and building websites that are functional, user-friendly, and visually appealing.
@@ -116,26 +119,31 @@
 
   <!-- CONTACT INFO -->
 
-    <section class="contact-info">
+    <section class="contact-info" id="socials">
       <div class="content-wrapper">
         <h3>Let's Connect</h3>
-          <h4>Hire Me</h4>
-          <!--<p>555-555-5555</p>-->
-          <p>hello@carriecrobbins.com</p>
+        <h4>Hire Me</h4>
+        <p><a href = "mailto:hello@carriecrobbins.com" target="_blank">hello@carriecrobbins.com</a></p>
 
-          <h4>Follow Me</h4>
-          <nav>
-            <ul>
-              <li><a href = "http://www.twitter.com/carriecrobbins" target="_blank"><img src ="img/twitter.png" alt="twitter icon"></a></li>
-              <li><a href = "http://www.github.com/Ccrobbins" target="blank"><img src ="img/github.png" alt="github icon"></a></li>
-              <li><a href = "https://www.linkedin.com/in/carrie-c-robbins" target="_blank"><img src="img/linkedin.png" alt="linkedin icon"></a></li>
-            </ul>
-          </nav>
+        <h4>Follow Me</h4>
+        <div class="social-icons">
+          <p>
+            <a href = "http://www.twitter.com/carriecrobbins" target="_blank"><i class="fab fa-twitter" alt="twitter icon"></i></a>
+          </p>
 
-          <h4>Meet Me</h4>
-          <p>High Point, NC<br>
-            Let's go to meetups together!</p>
+          <p>
+            <a href = "http://www.github.com/Ccrobbins" target="blank"><i class="fab fa-github" alt="github icon"></i></a>
+          </p>
+
+          <p>
+            <a href = "https://www.linkedin.com/in/carrie-c-robbins" target="_blank"><i class="fab fa-linkedin" alt="linkedin icon"></i></a>
+          </p>
         </div>
+
+        <p>High Point, NC<br>
+          Let's go to meetups together!
+        </p>
+      </div>
     </section>
   </main>
 
