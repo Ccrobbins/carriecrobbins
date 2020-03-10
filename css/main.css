@@ -393,18 +393,55 @@ textarea {
        margin: 100px 0;
      }
 
+     /* HERO AREA */
+     .hero-area {
+       min-height: 600px;
+     }
+
+     /* ABOUT */
+
+     .about .content-wrapper {
+       width: 90%;
+     }
+     .about article {
+       display: flex;
+       justify-content: space-between;
+     }
+     .about figure, .about div {
+       width: 49%;
+     }
+
    }
 
    @media only screen and (min-width: 1200px) {
      /* Desktop styles here */
 
 
-    /* General Styles */
+    /***** General Styles *****/
       .content-wrapper {
         max-width: 960px;
        }
 
-       /***** ABOUT ME *****/
+    /***** HERO AREA *****/
+    .hero-area h1, .hero-area h2 {
+      text-align: left;
+    }
+
+    /***** PROJECTS *****/
+    .projects article {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+    }
+
+    .projects article figure, .projects article div {
+      width: 49%;
+    }
+
+    
+
+    /***** ABOUT ME *****/
 
        .about article {
          display: flex;
