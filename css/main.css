@@ -114,6 +114,7 @@ textarea {
 
    a {
      color: white;
+     text-decoration: none;
    }
 
    img {
@@ -411,6 +412,17 @@ textarea {
        width: 49%;
      }
 
+     /* CONTACT SECTION */
+     .contact-info .information {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+
+     .contact-info .social-icons {
+       width: 12.5em;
+       justify-content: space-between;
+
    }
 
    @media only screen and (min-width: 1200px) {
@@ -439,8 +451,6 @@ textarea {
       width: 49%;
     }
 
-    
-
     /***** ABOUT ME *****/
 
        .about article {
@@ -467,6 +477,13 @@ textarea {
        .about p {
          font-size: 1.25em;
        }
+
+       .contact-info .information {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+       }
+
 
 
    }
