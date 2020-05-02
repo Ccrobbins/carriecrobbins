@@ -1,0 +1,83 @@
+body{
+	background: gray;
+	overflow: auto;
+}
+body p a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+h1{
+	text-align: left;
+	padding-left: 150px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	}
+#left-list, #right-list{
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+#left-list{
+	width: 250px;
+	float: left;
+	margin-left: 30px;
+   
+
+}
+#right-list{
+	width: 250px;
+	float: left;
+   
+
+}
+li{
+	border: 1px solid white;
+	padding: 20px;
+}
+#q1{
+	background: #ffcccc;
+	font-family: 'Anton', sans-serif;
+}
+
+#q2{
+	background: #ccffcc;
+	font-family: 'Big Shoulders Text', cursive;
+}
+#q3{
+	background: #ccd9ff;
+	font-family: 'Inconsolata', monospace;
+}
+#q4{
+	background: #ccffff;
+	font-family: 'Indie Flower', cursive;
+}
+#q5{
+	background: #ccffff;
+	font-family: 'Pacifico', cursive;
+	font-size: 24px;
+}
+#q6{
+	background: #ccffff;
+	font-family: 'Pacifico', cursive;
+
+}
+#q7{
+	background: #ccd9ff;
+	font-family: 'Indie Flower', cursive;
+}
+#q8{
+	background: #ffcccc;
+	font-family: 'Inconsolata', monospace;
+}
+#q9{
+	background: #ccffcc;
+	font-family: 'Big Shoulders Text', cursive;
+}
+#q10{
+	background: #ffcccc;
+	font-family: 'Anton', sans-serif;
+	font-size: 40px
+}
