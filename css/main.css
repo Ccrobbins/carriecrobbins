@@ -275,6 +275,10 @@ textarea {
      margin: 10px;
    }
 
+   .contact-info address{
+     font-style: normal;
+   }
+
    .contact-info .social-icons{
      display: flex;
      justify-content: space-around;
