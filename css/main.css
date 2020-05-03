@@ -154,24 +154,6 @@ textarea {
 
    /*****--------------- MOBILE STYLES - HOMEPAGE ---------------*****/
 
-   /***** HEADER ******/
-   /*header {
-     justify-content: center;
-     border: 5px solid black;
-   }
-
-   nav ul {
-     width: 100%;
-     display: flex;
-     flex-direction: column;
-     padding-left: 0;
-     margin: 0;
-   }
-
-   nav ul li {
-     text-align: center;
-   }*/
-
    header nav {
      text-align: center;
    }
@@ -403,6 +385,22 @@ textarea {
    @media only screen and (min-width: 768px) {
      /* Tablet styles here */
 
+     header{
+       justify-content: space-around;
+     }
+
+     nav ul {
+       width: 100%;
+       display: flex;
+       justify-content: space-around;
+       padding-left: 0;
+       margin: 0;
+     }
+
+     nav ul li {
+       text-align: center;
+     }
+
      /* General Styles */
      .content-wrapper {
        max-width: 640px;
@@ -443,28 +441,10 @@ textarea {
    @media only screen and (min-width: 1200px) {
      /* Desktop styles here */
 
-
     /***** General Styles *****/
       .content-wrapper {
         max-width: 960px;
        }
-      /*****HEADER STYLES *****/
-      header{
-        justify-content: space-around;
-      }
-
-      nav ul {
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        padding-left: 0;
-        margin: 0;
-      }
-
-      nav ul li {
-        text-align: center;
-      }
-
 
     /***** HERO AREA *****/
     .hero-area h1, .hero-area h2 {
