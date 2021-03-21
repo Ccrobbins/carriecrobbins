@@ -130,7 +130,7 @@ textarea {
 
    header,
    footer {
-     background-color: #DF8480;
+     background-color: #000000;
      padding: 0;
      display: flex;
    }
@@ -204,6 +204,14 @@ textarea {
      text-align: center;
    }
 
+   button {
+     border: none;
+     color: #ffffff;
+     background-color: #000000;
+     padding: 10px;
+     border-radius: 10px;
+   }
+
    /***** PROJECTS *****/
    .projects {
    display: flex;
@@ -215,6 +223,7 @@ textarea {
      font-size: 2em;
      margin: 10px 0;
      text-align: center;
+     color: #4d4d4d;
    }
 
    .projects h4 {
